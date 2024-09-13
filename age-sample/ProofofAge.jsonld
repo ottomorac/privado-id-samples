@@ -1,1 +1,72 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "AgeVerificationVoice": {
+                "@id": "https://raw.githubusercontent.com/ottomorac/privado-id-samples/main/age-sample/ProofofAge.jsonld#AgeVerificationVoice"
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:1250f2aa-28c7-4ce0-9453-9183c2242217#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "probability": {
+                        "@id": "polygon-vocab:probability",
+                        "@type": "xsd:string"
+                    },
+                    "ageRange": {
+                        "@context": {
+                            "minAgeRange": {
+                                "@id": "polygon-vocab:minAgeRange",
+                                "@type": "xsd:double"
+                            },
+                            "maxAgeRange": {
+                                "@id": "polygon-vocab:maxAgeRange",
+                                "@type": "xsd:double"
+                            }
+                        },
+                        "@id": "polygon-vocab:ageRange"
+                    }
+                }
+            },
+            
+        },
 
+       {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "AgeVerificationFacialScan": {
+                "@id": "https://raw.githubusercontent.com/ottomorac/privado-id-samples/main/age-sample/ProofofAge.jsonld#AgeVerificationVoice"
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:1250f2aa-28c7-4ce0-9453-9183c2242217#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "probability": {
+                        "@id": "polygon-vocab:probability",
+                        "@type": "xsd:string"
+                    },
+                    "ageRange": {
+                        "@context": {
+                            "minAgeRange": {
+                                "@id": "polygon-vocab:minAgeRange",
+                                "@type": "xsd:double"
+                            },
+                            "maxAgeRange": {
+                                "@id": "polygon-vocab:maxAgeRange",
+                                "@type": "xsd:double"
+                            }
+                        },
+                        "@id": "polygon-vocab:ageRange"
+                    }
+                }
+            },
+            
+        }
+
+    ]
+}
