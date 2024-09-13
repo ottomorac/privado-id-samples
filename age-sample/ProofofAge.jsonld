@@ -6,7 +6,7 @@
             "id": "@id",
             "type": "@type",
             "AgeVerificationVoice": {
-                "@id": "https://raw.githubusercontent.com/ottomorac/privado-id-samples/main/age-sample/ProofofAge.jsonld#AgeVerificationVoice"
+                "@id": "https://raw.githubusercontent.com/ottomorac/privado-id-samples/main/age-sample/ProofofAge.jsonld#AgeVerificationVoice",
                 "@context": {
                     "@propagate": true,
                     "@protected": true,
@@ -32,15 +32,9 @@
                 }
             },
             
-        },
 
-       {
-            "@protected": true,
-            "@version": 1.1,
-            "id": "@id",
-            "type": "@type",
             "AgeVerificationFacialScan": {
-                "@id": "https://raw.githubusercontent.com/ottomorac/privado-id-samples/main/age-sample/ProofofAge.jsonld#AgeVerificationVoice"
+                "@id": "https://raw.githubusercontent.com/ottomorac/privado-id-samples/main/age-sample/ProofofAge.jsonld#AgeVerificationFacialScan",
                 "@context": {
                     "@propagate": true,
                     "@protected": true,
@@ -64,7 +58,7 @@
                         "@id": "polygon-vocab:ageRange"
                     }
                 }
-            },
+            }
             
         }
 
